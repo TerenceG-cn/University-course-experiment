@@ -5,7 +5,7 @@ package numbers;
 //4+5(101−1+1)+1(102−1+1)+2(103−1+1)+3(105−1+1)+1(106−1+1)+1(107−1+1)+1(108−1+1)≡4+5+1+2+3+1+1+1=18
 //等价于判断，一个十进制数的各位之和是否能被 9 整除；
 public class divideByNine {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		int n=100;
 		int i;
 		int sum=0,count=0;
