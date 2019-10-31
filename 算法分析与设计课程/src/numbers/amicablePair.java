@@ -6,7 +6,7 @@ public class amicablePair {
 		int i, j, k;
 		final int N = 30000;
 		int[] s = new int[N];
-
+ 
 		for (i = 2; i < N; i++) {
 			for (j = 1, s[i] = 0; j < i; j++)
 				if (i % j == 0)
