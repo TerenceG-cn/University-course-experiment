@@ -1,10 +1,10 @@
-package µÚ¶þ´ÎÌÖÂÛ¿Î;
+package ç¬¬äºŒæ¬¡è®¨è®ºè¯¾;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-//ÒÑÖªÊ®¸öÍ¶Æ±ÈË¡¢Èý¸öºòÑ¡ÈË£¬Í³¼ÆºòÑ¡ÈËµÃÆ±ÊýºÍ·Ö±ðÀ´×Ô½ÌÊ¦¡¢Ñ§ÉúÖ°¹¤µÄÆ±Êý¡£²¢Êä³öÎÞÐ§Æ±Êý
+//ï¿½ï¿½ÖªÊ®ï¿½ï¿½Í¶Æ±ï¿½Ë¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½Ë£ï¿½Í³ï¿½Æºï¿½Ñ¡ï¿½Ëµï¿½Æ±ï¿½ï¿½ï¿½Í·Ö±ï¿½ï¿½ï¿½ï¿½Ô½ï¿½Ê¦ï¿½ï¿½Ñ§ï¿½ï¿½Ö°ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§Æ±ï¿½ï¿½
 public class Thiking4 {
 	private static char A='A';
 	private static char One='1';
@@ -26,12 +26,12 @@ public class Thiking4 {
 			}
 		}
 		scanner.close();
-		System.out.println("LiµÄ×ÜÆ±ÊýÎª"+(result[0][0]+result[0][1]+result[0][2]));
-		System.out.println("À´×Ô½ÌÊ¦µÄÆ±ÓÐ"+result[0][0]+"\tÀ´×ÔÑ§ÉúµÄÆ±ÓÐ"+result[0][1]+"\tÀ´×ÔÖ°¹¤µÄÆ±ÓÐ"+result[0][2]);
-		System.out.println("ZhangµÄ×ÜÆ±ÊýÎª"+(result[1][0]+result[1][1]+result[1][2]));
-		System.out.println("À´×Ô½ÌÊ¦µÄÆ±ÓÐ"+result[1][0]+"\tÀ´×ÔÑ§ÉúµÄÆ±ÓÐ"+result[1][1]+"\tÀ´×ÔÖ°¹¤µÄÆ±ÓÐ"+result[1][2]);
-		System.out.println("WangµÄ×ÜÆ±ÊýÎª"+(result[2][0]+result[2][1]+result[2][2]));
-		System.out.println("À´×Ô½ÌÊ¦µÄÆ±ÓÐ"+result[2][0]+"\tÀ´×ÔÑ§ÉúµÄÆ±ÓÐ"+result[2][1]+"\tÀ´×ÔÖ°¹¤µÄÆ±ÓÐ"+result[2][2]);
-		System.out.println("ÎÞÐ§µÄÆ±ÊýÎª"+invalid.size());
+		System.out.println("Liï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½Îª"+(result[0][0]+result[0][1]+result[0][2]));
+		System.out.println("ï¿½ï¿½ï¿½Ô½ï¿½Ê¦ï¿½ï¿½Æ±ï¿½ï¿½"+result[0][0]+"\tï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½"+result[0][1]+"\tï¿½ï¿½ï¿½ï¿½Ö°ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½"+result[0][2]);
+		System.out.println("Zhangï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½Îª"+(result[1][0]+result[1][1]+result[1][2]));
+		System.out.println("ï¿½ï¿½ï¿½Ô½ï¿½Ê¦ï¿½ï¿½Æ±ï¿½ï¿½"+result[1][0]+"\tï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½"+result[1][1]+"\tï¿½ï¿½ï¿½ï¿½Ö°ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½"+result[1][2]);
+		System.out.println("Wangï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½Îª"+(result[2][0]+result[2][1]+result[2][2]));
+		System.out.println("ï¿½ï¿½ï¿½Ô½ï¿½Ê¦ï¿½ï¿½Æ±ï¿½ï¿½"+result[2][0]+"\tï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½"+result[2][1]+"\tï¿½ï¿½ï¿½ï¿½Ö°ï¿½ï¿½ï¿½ï¿½Æ±ï¿½ï¿½"+result[2][2]);
+		System.out.println("ï¿½ï¿½Ð§ï¿½ï¿½Æ±ï¿½ï¿½Îª"+invalid.size());
 	}
 }	
