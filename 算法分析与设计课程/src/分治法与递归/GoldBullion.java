@@ -1,9 +1,9 @@
-package ·ÖÖÎ·¨ÓëµÝ¹é;
+package åˆ†æ²»æ³•ä¸Žé€’å½’;
 
 import java.util.Scanner;
 
 /**
- * ½ð¿éÎÊÌâ£ºÀûÓÃ·ÖÖÎ·¨ÕÒ×î´ó×îÐ¡Öµ
+ * æœ€å¤§æœ€å°å€¼é€‰æ‹©Öµ
  * 
  * @author TerenceG
  *
@@ -19,9 +19,9 @@ public class GoldBullion {
 			max[0] = a[i] > a[j] ? a[i] : a[j];
 			min[0] = a[i] > a[j] ? a[j] : a[i];
 		} else {
-			mid = (i + j) / 2;//¿É¸ÄÎªmid=(i+2j)/3
-			maxmin(i, mid, lmax, lmin, a);// ÏÈËã×ó±ß
-			maxmin(mid, j, rmax, rmin, a);// ÔÙËãÓÒ±ß
+			mid = (i + j) / 2;//æˆ–è€…mid=(i+2j)/3
+			maxmin(i, mid, lmax, lmin, a); 
+			maxmin(mid, j, rmax, rmin, a);
 			max[0] = (lmax[0] > rmax[0]) ? lmax[0] : rmax[0];
 			min[0] = (lmin[0] < rmin[0]) ? lmin[0] : rmin[0];
 		}
@@ -30,7 +30,7 @@ public class GoldBullion {
 	public static void main(String[] args) {
 		int i;
 		float[] a = new float[N];
-		float[] max= {Float.MIN_VALUE};//java¶ÔÓÚÊµ²Î´«µÝ£¬ÊÇ²ÉÓÃÖµ´«µÝ£¬ËùÒÔÒª¸Ä³ÉÊý×é£¬²»ÄÜÖ±½ÓÊ¹ÓÃ±äÁ¿È¥¼ÆËã×î´óÖµºÍ×îÐ¡Öµ¡£µ«»¹ÊÇÒ»¸öºÜ´ÀµÄ°ì·¨
+		float[] max= {Float.MIN_VALUE};
 		float[] min= {Float.MAX_VALUE};
 		Scanner scanner = new Scanner(System.in);
 		System.out.printf("array a=?");
