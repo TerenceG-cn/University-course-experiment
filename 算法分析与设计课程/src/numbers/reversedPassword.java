@@ -8,7 +8,7 @@ public class reversedPassword {
 				for(c=0;c<10;c++)
 					for(d=0;d<10;d++)
 						if(1333*a+130*b==20*c+332*d)
-							System.out.println(""+a+b+c+d);
+							System.out.println("ÐÂÃÜÂëÎª£º"+d+c+b+a);
 	}
 }
 /*ÃÜÂëÊÇ2178*/
