@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-//��֪ʮ��ͶƱ�ˡ�������ѡ�ˣ�ͳ�ƺ�ѡ�˵�Ʊ���ͷֱ����Խ�ʦ��ѧ��ְ����Ʊ�����������ЧƱ��
+//选票
 public class Thiking4 {
 	private static char A='A';
 	private static char One='1';
@@ -26,12 +26,12 @@ public class Thiking4 {
 			}
 		}
 		scanner.close();
-		System.out.println("Li����Ʊ��Ϊ"+(result[0][0]+result[0][1]+result[0][2]));
-		System.out.println("���Խ�ʦ��Ʊ��"+result[0][0]+"\t����ѧ����Ʊ��"+result[0][1]+"\t����ְ����Ʊ��"+result[0][2]);
-		System.out.println("Zhang����Ʊ��Ϊ"+(result[1][0]+result[1][1]+result[1][2]));
-		System.out.println("���Խ�ʦ��Ʊ��"+result[1][0]+"\t����ѧ����Ʊ��"+result[1][1]+"\t����ְ����Ʊ��"+result[1][2]);
-		System.out.println("Wang����Ʊ��Ϊ"+(result[2][0]+result[2][1]+result[2][2]));
-		System.out.println("���Խ�ʦ��Ʊ��"+result[2][0]+"\t����ѧ����Ʊ��"+result[2][1]+"\t����ְ����Ʊ��"+result[2][2]);
-		System.out.println("��Ч��Ʊ��Ϊ"+invalid.size());
+		System.out.println("Li总票数"+(result[0][0]+result[0][1]+result[0][2]));
+		System.out.println("来自Teacher的票数"+result[0][0]+"\t来自Student的票数"+result[0][1]+"\t来自Worker的票数"+result[0][2]);
+		System.out.println("Zhang总票数"+(result[1][0]+result[1][1]+result[1][2]));
+		System.out.println("来自Teacher的票数"+result[1][0]+"\t来自Student的票数"+result[1][1]+"\t来自Worker的票数"+result[1][2]);
+		System.out.println("Wang总票数"+(result[2][0]+result[2][1]+result[2][2]));
+		System.out.println("来自Teacher的票数"+result[2][0]+"\t来自Student的票数"+result[2][1]+"\t来自Worker的票数"+result[2][2]);
+		System.out.println("无效票数"+invalid.size());
 	}
 }	

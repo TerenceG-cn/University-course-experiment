@@ -1,18 +1,8 @@
-package 动态规划;
+package ��̬�滮;
 
-/**
- * ��������
- * 
- * @author TerenceG
- *
- */
+
 public class NumberTower {
-	/**
-	 * 
-	 * @param a �洢��������
-	 * @param d �洢���ƽ��
-	 * @param n
-	 */
+
 	public static void numberPath(int[] nums, int n) {
 		int i, j, k, flag, b, l = 0;
 		int[][] a = new int[50][50];
@@ -44,7 +34,7 @@ public class NumberTower {
 	}
 
 	public static void numberPath2(int[] nums, int n) {
-		int i, j, k, flag, b, l = 0;
+		int i, j, k, l = 0;
 		int[][] a = new int[50][50];
 		int[][] d = new int[50][50];
 		int[][] t = new int[50][50];
@@ -85,7 +75,7 @@ public class NumberTower {
 	 */
 	public static void numberPath4(int[] nums, int n) {
 		int i, j, k, flag, b, l = 0;
-		int[][][] a = new int[50][50][4];//��ά���飬�洢�������ݣ����ƽ������ⷽ��
+		int[][][] a = new int[50][50][4];
 
 		for (i = 1; i <= n; i++)
 			for (j = 1; j <= i; j++) {

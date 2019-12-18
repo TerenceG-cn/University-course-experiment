@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Thinking8_1 {
 	//整数分拆个数
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		while (scanner.hasNext()) {
 			int n = scanner.nextInt();

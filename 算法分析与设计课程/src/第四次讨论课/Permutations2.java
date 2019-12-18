@@ -26,7 +26,6 @@ public class Permutations2 {
 
 	public static void main(String[] args) {
 		int[] a = new int[100];
-		f(4, 3, a);
+		f(3, 2, a);
 	}
-
 }

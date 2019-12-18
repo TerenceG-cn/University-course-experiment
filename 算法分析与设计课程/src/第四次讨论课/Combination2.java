@@ -27,7 +27,7 @@ public final class Combination2 {
 
 	public static void main(String[] args) {
 		int result[]=new int[100];
-		f(7, 3,result);
+		f(5, 3,result);
 		System.out.println("总共有"+count+"种组合");
 		//System.out.println(len);
 	}

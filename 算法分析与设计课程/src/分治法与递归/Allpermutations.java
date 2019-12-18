@@ -1,10 +1,9 @@
-
-package åˆ†æ²»æ³•ä¸é€’å½’;
+package ·ÖÖÎ·¨Óëµİ¹é;
 
 import java.util.Scanner;
 
 /*
- * å…¨æ’åˆ—
+ * È«ÅÅÁĞ
  */
 
 

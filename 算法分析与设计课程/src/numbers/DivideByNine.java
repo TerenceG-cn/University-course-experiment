@@ -4,14 +4,14 @@ package numbers;
 //比如判断 111302154 能否被 9 整除：
 //4+5(101−1+1)+1(102−1+1)+2(103−1+1)+3(105−1+1)+1(106−1+1)+1(107−1+1)+1(108−1+1)≡4+5+1+2+3+1+1+1=18
 //等价于判断，一个十进制数的各位之和是否能被 9 整除；
-public class divideByNine {
+public class DivideByNine {
 	public static void main(String[] args) { 
 		int n=100;
 		int i;
-		int sum=0;int count=0;
+		int s=0;int count=0;
 		for(i=1;i<n;i++) {
-			sum+=i;
-			if(sum%9==0)
+			s+=i;
+			if(s%9==0)
 			{
 				count++;
 				for(int b=1;b<=i;b++)

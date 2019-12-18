@@ -1,21 +1,11 @@
-package 动态规划;
+package ��̬�滮;
 
-/**
- * �㷨����һ���������ʾΪ���ٵİ�������֮�͵���ʽ����������ָ���Ƿ���Ϊ1�ķ�����
- * 
- * @author TerenceG
- *
- */
+
 public class EgyptianScore {
-	/**
-	 * ��һ���������ʾΪ���ٵİ�������֮��
-	 * 
-	 * @param a ����
-	 * @param b ��ĸ
-	 */
+
 	public static void egyptianScorez(long a, long b) {
 		int flag = 0;
-		long c = 0;// ���İ�������
+		long c = 0;
 		if (a >= b) {
 			System.out.println("input error!");
 		} else if (b % a == 0) {
@@ -25,7 +15,7 @@ public class EgyptianScore {
 			flag = 1;
 			do {
 				c = b / a + 1;
-				a = a * c - b;// ͬ��
+				a = a * c - b;
 				b *= c;
 				System.out.printf("1/%d+", c);
 				if (b % a == 0) {
@@ -37,21 +27,19 @@ public class EgyptianScore {
 		System.out.println();
 	}
 
-	/*
-	 * ǿ�еݹ�д��
-	 */
+
 	private static long[] result = new long[100];
 	static int i = 0;
 
 	public static long[] egyptianS(long a, long b) {
-		long c = 0;// ���İ�������
+		long c = 0;
 		if (a >= b) {
 			System.out.println("input error!");
 		} else if (b % a == 0) {
 			result[i++] = (b / a);
 		} else {
 			c = b / a + 1;
-			a = a * c - b;// ͬ��
+			a = a * c - b;
 			b *= c;
 			result[i++] = c;
 			egyptianS(a, b);
